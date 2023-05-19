@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://gitlab.schukai.com/uploads/-/system/group/avatar/139/javascript.png" type="image/x-icon">
+    <link rel="stylesheet" href="./js.css">
+    <title>JavaScript Darslari (Veriables)</title>
+</head>
+<body>
+
+    <div class="header">JAVASCRIPT VARIABLES (O'zgaruvchilar). (2-DARS)</div>
+
+    <div class="info">
+        O'zgaruvchi shunchaki qiymatning egasidir, <b>masalan</b>, elementni ushlab turgan quti. <br>
+    </div>
+    <br>
+    
+    <main>
+        <details>
+            <summary class="nav_title">JS VARIABLES <small>(info)</small></summary>
+            <img src="./images/variablesImg.png" alt="">
+            <img src="./images/boxVariables.png" alt="">
+            <div class="info">Oddiy so'zlar bilan aytganda, <b>o'zgaruvchi bu</b> - biron-bir qiymat uchun container (quti) hisoblanadi.</div>
+            <ul>
+                <li><b>O'zgaruvchilarga misollar:</b> - myNumber, my_number, list1, $item, _name, a, b, $, _</li>
+                <div class="info">Quyidagi rasmda to'g'ri o'zgaruvchilarga misollar keltirilgan.</div>
+                <img src="./images/OzgaruvchiNomlari.png" alt="">
+                <li><em>O'zgaruvchilarning noto'g'ri misoli:</em> -  1number, my-number, if, let, function va h.k</li>
+                <div class="info">Quyidagi rasmda noto'g'ri o'zgaruvchilarga misollar keltirilgan.</div>
+                <img src="./images/NoTogri.png" alt="">
+                <div class="subtitle">
+                    "JavaScript identifikatorlari <b>katta-kichik</b> harflarga sezgir." <br> <b>Masalan:</b> Ism va ism. <strong>bu ikki xil o'zgaruvchidir.</strong>
+                </div>
+            </ul>
+
+        </details>
+    </main>
+    <!-- --------------------------------------------------------------------- -->
+    <main>
+        <details>
+            <summary class="nav_title">JS VARIABLES <small>(JavaScript o'zgaruvchilarini e'lon qilish usullari)</small></summary>
+            <div class="info">
+                JavaScript-da o'zgaruvchilarni e'lon qilishning <b>3 ta usuli bor</b> <br> Bularni birma-bir ko'rib chiqamiz:
+            </div>
+    <section>
+        <details>
+            <summary class="title">1. let</summary>
+            <div class="info"><b>let</b> bu - O'zgaruvchan qiymat.</div>
+            <img src="./images/let-4.png" alt="">
+            <img src="./images/let-4.pngzzas" alt="">
+            <img src="./images/let-1.jpg" alt="">
+            <img src="./images/let-2.png" alt="">
+            <img src="./images/let-3.jpg" alt="">
+            <div class="info">Quyidagi holat esa <em>xatolikni</em> chiqarib keltiradi!</div>
+            <img src="./images/let-5.png" alt="">
+            <img src="./images/let-6.png" alt="">
+            <ul>
+                <li><b>let</b> kalit so'zi orqali e'lon qilingan o'zgaruvchi qiymatini keyinchalik boshqa qiymatga ham o'zgartirib ishlatishimiz mumkin.</li>
+                <li><b>let</b> kalit so'zi orqali o'zgaruvchini biron-bir blok ichida e'lon qiladigan bo'lsak uni faqat o'sha blok ichida ishlatishimiz mumkin bo'ladi. </li>
+            </ul>
+        </details>
+        <details>
+            <summary class="title">2. const</summary>
+            <div class="info"><b>const</b> bu - O'zgarmas qiymat.</div>
+            <img src="./images/const.png" alt="">
+            <ul>
+                <li><b>const</b> kalit so'zi orqali e'lon qilingan o'zgaruvchi doim boshlang'ich qiymatga ega bo'lishi kerak.</li>
+                <li><b>const</b> kalit so'zi orqali e'lon qilingan o'zgaruvchi qiymatini keyinchalik boshqa qiymatga o'zgartirib bo'lmaydi.</li>
+                <li><b>const</b> kalit so'zining <b>let</b> va <b>var</b> dan asosiy farqi, o'zgaruvchiga yangi qiymat berib bo'lmaydi.</li>
+                <li><b>const</b> kalit so'zi orqali o'zgaruvchini biron-bir blok ichida e'lon qiladigan bo'lsak uni faqat o'sha blok ichida ishlatishimiz mumkin bo'ladi. </li>
+            </ul>
+        </details>
+        <details>
+            <summary class="title">3. var</summary>
+            <div class="info"><b>var</b> bu - Eski O'zgaruvchan qiymat.</div>
+            <img src="./images/var.png" alt="">
+            <ul>
+                <li><b>var</b> kalit so'zi orqali e'lon qilingan o'zgaruvchi qiymatini keyinchalik boshqa qiymatga ham o'zgartirib ishlatishimiz mumkin.</li>
+                <li><b>var</b> kalit so'zining <b>let</b> va <b>const</b> dan asosiy farqi, biz <b>var</b> kalit so'zi orqali 2-qatorda o'zgaruvchi e'lon qilib uni 1-qatorda ishlatadigan bo'lsak bu bizga <b>undefined</b> qiymatini beradi. <em>Bu esa bizga keyinchalik muammolar tug'dirishi mumkin</em>.</li>
+                <img src="./images/varUndifined.png" alt="">
+                <div class="info">Bu yerda <em>xato</em> o'rniga <em>undefined</em> qiymati chiqadi. <small>Bu esa bizga <em>muammolar</em> tug'diradi.</small></div>
+            </ul>
+        </details>
+    </section>
+
+        </details>
+    </main>
+
+</body>
+</html>
